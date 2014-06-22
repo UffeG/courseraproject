@@ -4,16 +4,16 @@ output: html_document
 ---
 # CodeBook - 2014 Coursera Project Assignment
 
+## Introduction
 Project based on data from Human Activity Recognition Using Smartphones Dataset
 Version 1.0
-==================================================================
+
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Università degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
-==================================================================
 
 ## Study Design
 
@@ -52,7 +52,7 @@ Files included in the Coursera project:
 ## Code Book
 Data set included with this project.
 
-1 LabelActivity
+1. LabelActivity
   Activity performed by person (STRING)
 	WALKING
 	WALKING_UPSTAIRS
@@ -60,18 +60,18 @@ Data set included with this project.
 	SITTING
 	STANDING
 	LAYING
-2 SubjectId
+2. SubjectId
 	Id for person participating in experiment (INTEGER)
 	1..30
 3-68 Average sensor measures  for mean and standard deviation (NUMERIC). Measures are normalized and bounded within [-1,1].
-3	tBodyAcc-mean()-X
-4	tBodyAcc-mean()-Y
-5	tBodyAcc-mean()-Z
-6	tBodyAcc-std()-X
-7	tBodyAcc-std()-Y
-8	tBodyAcc-std()-Z
-9	tGravityAcc-mean()-X
-10	tGravityAcc-mean()-Y
+3.	tBodyAcc-mean()-X
+4.	tBodyAcc-mean()-Y
+5.	tBodyAcc-mean()-Z
+6.	tBodyAcc-std()-X
+7.	tBodyAcc-std()-Y
+8.	tBodyAcc-std()-Z
+9.	tGravityAcc-mean()-X
+10.	tGravityAcc-mean()-Y
 11	tGravityAcc-mean()-Z
 12	tGravityAcc-std()-X
 13	tGravityAcc-std()-Y
