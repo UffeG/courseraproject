@@ -36,8 +36,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
  
 For more information about the original dataset contact: activityrecognition@smartlab.ws
 
-Files included in the Coursera project:
-=========================================
+## Files included in the Coursera project:
+
 
 * 'README.md': Details about the R-script
 
@@ -128,4 +128,5 @@ Data set included with this project.
 66.	fBodyBodyGyroMag-std()
 67.	fBodyBodyGyroJerkMag-mean()
 68.	fBodyBodyGyroJerkMag-std()
+
 3-68 Average sensor measures  for mean and standard deviation (NUMERIC). Measures are normalized and bounded within [-1,1].
