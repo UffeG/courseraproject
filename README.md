@@ -20,19 +20,18 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 R-script utilizes reshape2
 
 ## Process
-1. Load data from files for, features and activity labels
+1. Load data from files for features and activity labels
 2. Load test data from files
 3. Load training data from files
 4. Concatenate rows (with data) from Training and Test files into a single data set
 5. Add columns names for the measures
-6. Add columns for subject id and activity id
-7. Extract required columns (mean and std cols) from data set
+6. Extract required columns (mean and std cols) from data set
+7. Add columns for subject id and activity id
 8. Merge to get descriptive Activity labels
-9. Concatenate rows (with data) from subject_test, y_test, X_Test files into a single data set
-10. Perform the summarization of the new data set by creating a wide data set
+9. Perform the summarization of the new data set by creating a wide data set
 
 ## Final Data Set
-The final data set is is a tidy data set by being compliant with priciples outlined in the paper of Hadley Wickham, http://vita.had.co.nz/papers/tidy-data.pdf
+The final data set is a tidy data set by being compliant with priciples outlined in the paper of Hadley Wickham, http://vita.had.co.nz/papers/tidy-data.pdf
 * Each variable you measure should be in one column
 * Each different observation of that variable should be in a different row
 * There should be one table for each "kind" of variable
